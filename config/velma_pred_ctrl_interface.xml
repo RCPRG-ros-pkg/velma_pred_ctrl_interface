@@ -38,6 +38,7 @@
     <ros_stream port="cmdConcate.cart_l_pose_INPORT" topic="/velma_pred_ctrl_interface/cart_l_pose_cmd_in" />
     <ros_stream port="cmdConcate.cart_l_tool_INPORT" topic="/velma_pred_ctrl_interface/cart_l_tool_cmd_in" />
     <ros_stream port="cmdConcate.cart_l_imp_INPORT" topic="/velma_pred_ctrl_interface/cart_l_imp_cmd_in" />
+    <ros_stream port="cmdConcate.head_INPORT" topic="/velma_pred_ctrl_interface/head_in" />
 
     <!-- streams needed for validity of the whole command -->
     <ros_stream port="cmdConcate.hp_homing_start_INPORT" topic="/velma_pred_ctrl_interface/hp_homing_start" />
