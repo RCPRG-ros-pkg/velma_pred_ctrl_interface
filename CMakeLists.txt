@@ -60,9 +60,9 @@ install(DIRECTORY config/
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/config
   )
 
-#catkin_install_python(PROGRAMS
-#    scripts/...
-#DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+catkin_install_python(PROGRAMS
+    scripts/prepare_velma_msgs_for_matlab.py
+DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 #orocos_install_headers(
 #  DIRECTORY include/${PROJECT_NAME}/
